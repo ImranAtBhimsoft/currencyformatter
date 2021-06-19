@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPurple">#FF6200EE</color>
+    <color name="colorPurpleDark">#FF3700B3</color>
+    <color name="colorTeal">#FF03DAC5</color>
+    <color name="colorTealDark">#FF018786</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorOffWhite">#F4F4F4</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorOrange">#FB8C00</color>
+    <color name="colorLightPurple">#ECF2FF</color>
+
+    <color name="colorTextToolbar">#121111</color>
+    <color name="colorTextHint">#E4E4E4</color>
+
+</resources>

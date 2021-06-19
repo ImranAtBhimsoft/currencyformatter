@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryVariant">@color/colorWhite</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPurple</item>
+        <item name="colorSecondaryVariant">@color/colorTealDark</item>
+        <item name="colorOnSecondary">@color/colorPurple</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="BaseTheme.Main">
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryVariant">@color/colorBlack</item>
+    </style>
+
+    <style name="ToolBarTitle" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/colorTextToolbar</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/mulish_semi_bold</item>
+        <item name="android:fontFamily">@font/mulish_semi_bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextStyle" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/colorTextHint</item>
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">@font/mulish_semi_bold</item>
+        <item name="android:fontFamily">@font/mulish_semi_bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">1</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMinTextSize">16sp</item>
+        <item name="autoSizeMaxTextSize">32sp</item>
+    </style>
+
+    <style name="KeyboardKey">
+        <item name="android:layout_width">@dimen/maxKeyWidth</item>
+        <item name="android:layout_height">@dimen/maxKeyWidth</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_margin">@dimen/cellMargin</item>
+        <item name="android:background">@drawable/key_selector_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="KeyboardKey.KeyboardTextKey">
+        <item name="android:textColor">@color/key_selector_forground</item>
+        <item name="android:fontFamily">@font/mulish_semi_bold</item>
+        <item name="fontFamily">@font/mulish_semi_bold</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+</resources>
